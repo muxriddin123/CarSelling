@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: test
+  datasource:
+    url: jdbc:postgresql://localhost:5432/test1
+    password: root123
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+springdoc:
+  swagger-ui:
+    path: /ui
